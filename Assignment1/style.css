@@ -1,0 +1,334 @@
+.header{
+    height:10vh;
+    background-color: #CE0505;
+  }
+  .logo{
+    background-color: white;
+    width: 2.4vw;
+    height:5vh;
+    display: inline-block;
+    border-radius: 50%;
+    color:  #CE0505;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 2vh;
+  }
+
+  .login-container{
+    float:right;
+    cursor:alias;
+    
+  }
+
+  .login-container
+  {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: #CE0505;
+    color:white;
+    border:  #CE0505 1px solid; 
+  }
+  .login-container:hover{
+        
+    cursor: pointer;
+  }
+  .login-container
+     button2{
+    padding-top: 2px;
+    padding-bottom: 1px;
+    /*margin-top: 5px;
+    margin-bottom: 3px;
+    margin-right: 10px;*/
+    background-color: #CE0505;
+    color:white;
+    border: white 1px solid; 
+  }
+  
+  .heading{
+    padding-left: 113px;
+top: 117px;
+left: 200px;
+width: 514px;
+height: 51px;
+text-align: left;
+font: normal normal bold 36px/55px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+  }
+
+.flexbox{
+/* margin-left: cm; */
+min-height: 100vh;
+display:inline;
+position: absolute;
+top: 195;
+left: 113px;
+height: 700px;
+width: 23vw; 
+background: #ffffff;
+box-shadow: 0px 3px 6px #00000029;
+border: #3e2626ef;
+align-items: center;
+}
+
+.flex-item1{
+  top: 212px;
+  left: 139px;
+  width: 55px;
+  height: 25px;
+  font: normal normal;
+}
+
+h3{
+  padding-top: 26px;
+  padding-left: 26px;
+  color: #192F60;
+}
+
+.location{
+  padding-left: 26px;
+  top: 307px;
+left: 140px;
+width: 106px;
+height: 20px;
+  color: #192F60;
+  text-align: center;
+}
+
+.custom-select{
+  padding-left: 26px;
+  /*min-height: 100vh;*/
+  display: grid;
+}
+
+.cusine{
+  padding-left: 26px;
+  color: #192F60;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left:  16px;
+  margin-bottom: 2px;
+  cursor: pointer;
+ /* font-size: 25px;*/
+  font: #192F60 18px sans-serif;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #192F60 ;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+  color: #192F60;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid rgb(235, 87, 212);
+  border-width: 0 3px 3px 0;
+  
+}
+
+.food{
+  top: 370px;
+left: 169px;
+width: 86px;
+height: 20px;
+text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+  padding-left: 26px;
+  color: #192F60;
+}
+
+.cost{
+  padding-left: 26px;
+  top: 307px;
+left: 140px;
+width: 106px;
+height: 20px;
+  color: #192F60;
+  text-align: center;
+}
+
+.cost2{
+  padding-left: 26px;
+  top: 307px;
+  left: 140px;
+  width: 106px;
+  height: 20px;
+    color: #192F60;
+    text-align: center;
+}
+
+
+.box {
+  display:flex;
+     float: right; 
+     margin-right:;
+  align-items: center;
+  justify-content: center;
+}
+
+ /* .box div {
+  width: 100px;
+  height: 100px;
+}  changes form here */
+
+   #container{
+    
+  box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+  height: 32.8vh;
+	width: 40vw;
+  display: flex;
+  float: right;
+   margin: 6vh 13vw;  
+	align-items: center;
+justify-content: center; 
+}
+
+.product-details {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 100%;
+
+}
+
+
+#container .product-details > p {
+text-align: left;
+font-family: 'EB Garamond', serif;
+	/* text-align: center; */
+	font-size: 18px;
+	color: #7d7d7d;
+	
+}
+
+
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	/*float: right; */
+	width: 65%;
+	display: ;
+}
+
+#container img {
+  padding-top: 26px;
+  width: 50%;height: 50%;
+}
+
+.linebreak{
+  background-color: #192F60;
+  height: 10px;
+  flex-wrap: wrap;
+}
+
+.bakery{
+  font-size: medium;
+  text-align: left;
+}
+
+/* #container2{
+  order:10;
+  display: flex;
+  box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+  height: 32.8vh;
+	width: 27vw;
+  float: right;
+   margin: 0vh 5vw;  
+	 align-items: center;
+justify-content: center; 
+}  */
+
+.product-details1 {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 100%;
+
+}
+
+
+#container2 .product-details2 > p {
+text-align: left;
+font-family: 'EB Garamond', serif;
+	/* text-align: center; */
+	font-size: 18px;
+	color: #7d7d7d;
+	
+}
+
+
+.product-image1{
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	/*float: right; */
+	width: 55%;
+	display: ;
+}
+
+#container img1{
+  padding-top: 26px;
+  width: 20%;height: 20%;
+}
+
+.bakery1{
+  font-size: medium;
+  text-align: left;
+}
